@@ -20,6 +20,15 @@ function notAtAllRand()
 // A key pass
 function keyPass()
 {
-	return "thisisthekey";
+	$id = 'areyoureadyforimpactlolwowkk1!!!!1!1!!111!';
+	$key_pass = keyPassHelper($id);
+}
+
+function keyPassHelper($id)
+{
+	$url = 'http://code.example.com/rest/get/id';
+	$new_key = getKeyFromURL($url, $id);
+
+	return $new_key;
 }
 ?>
