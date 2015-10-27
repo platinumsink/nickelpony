@@ -12,4 +12,8 @@ function sslRand($length)
 }
 
 // Stub
+function stub() { }
+
+// Stub 2
+function stub2() { }
 ?>
