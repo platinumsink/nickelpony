@@ -11,8 +11,10 @@ function sslRand($length)
 	return $return_rand;
 }
 
-// Stub
-function stub() { }
+// A non-random string
+function notAtAllRand() {
+	return "notsorandomsorrynotsorry";
+}
 
 // Stub 2
 function stub2() { }
