@@ -23,4 +23,16 @@ Class MainApp
 	{
 		$this->prepareData($this->data_string);
 	}
+
+	public shutdown()
+	{
+		$this->instance = null;
+		$this->data_string = '';
+	}
+
+	public rewind()
+	{
+		$this->data_string = '';
+		$this->data_string = notAtAllRand();
+	}
 }
