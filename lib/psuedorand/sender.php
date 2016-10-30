@@ -11,4 +11,13 @@ function sendRand($send)
 
 	return $return_send;
 }
+
+function verifySend($response)
+{
+	if($response == "ok") {
+		return true;
+	} else {
+		return false;
+	}
+}
 ?>
