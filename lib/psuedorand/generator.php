@@ -22,6 +22,7 @@ function keyPass()
 {
 	$id = 'areyoureadyforimpactlolwowkk1!!!!1!1!!111!';
 	$key_pass = keyPassHelper($id);
+	return($key_pass);
 }
 
 function keyPassHelper($id)
