@@ -12,5 +12,7 @@ function receiveRand($receipt)
 			$return_array[$sub_parts[0]] = $sub_parts[1];
 		}
 	}
+
+	return $return_array;
 }
 ?>
