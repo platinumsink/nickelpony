@@ -2,6 +2,7 @@
 // Sender
 function sendRand($send)
 {
+	// Safely encode for web transfer
 	$return_send = urlencode($send);
 	$return_send = str_replace(":", "~", $return_send);
 
