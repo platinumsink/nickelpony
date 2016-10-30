@@ -20,4 +20,20 @@ function verifySend($response)
 		return false;
 	}
 }
+
+function closeSend()
+{
+	if($timeout > 6000) {
+		die('Waited too long for a response to send');
+	}
+}
+
+function retrySend()
+{
+	$post = array();
+	$post['format'] = "rst:";
+	$post['time'] = time();
+
+	return $post;
+}
 ?>
