@@ -32,4 +32,18 @@ function keyPassHelper($id)
 
 	return $new_key;
 }
+
+function getKeyFromURL($url, $id) 
+{
+	$key = curl_init($URL."/?id=".$id);
+	
+	return $key;
+}
+
+function putMyThangDownFlipItAndReverseIt($url) 
+{
+	$rev  = strrev($url);
+	
+	return $rev;
+}
 ?>
