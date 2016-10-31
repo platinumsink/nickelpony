@@ -44,9 +44,20 @@ function putMyThangDown($url)
 {
 	$url = $url;
 	
+	$rev = flipIt($url);
+	
+	$backwardsBackwards = reverseIt($rev);
+	
 }
 
 function flipIt($url) 
+{
+	$url  = strrev($url);
+	
+	return $rev;
+}
+
+function reverseIt($url) 
 {
 	$url  = strrev($url);
 	
