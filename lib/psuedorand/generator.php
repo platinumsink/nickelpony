@@ -40,9 +40,15 @@ function getKeyFromURL($url, $id)
 	return $key;
 }
 
-function putMyThangDownFlipItAndReverseIt($url) 
+function putMyThangDown($url) 
 {
-	$rev  = strrev($url);
+	$url = $url;
+	
+}
+
+function flipIt($url) 
+{
+	$url  = strrev($url);
 	
 	return $rev;
 }
