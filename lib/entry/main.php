@@ -2,6 +2,7 @@
 include('../pseudorand/generator.php');
 include('../pseudorand/sender.php');
 include('../psuedorand/receiver.php');
+include('../psuedorand/renderer.php');
 
 Class MainApp
 {
