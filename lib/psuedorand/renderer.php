@@ -2,6 +2,6 @@
 // Renderer
 function renderRand($receipt)
 {
-	print $receipt;
+	print_r $receipt;
 }
 ?>
